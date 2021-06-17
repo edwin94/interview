@@ -1,0 +1,13 @@
+models\ARegistration.class
+models\AEchoSupport.class
+models\MShopping.class
+models\MHome.class
+models\AHome.class
+Utility\Config.class
+models\Util.class
+models\MSearch.class
+models\MDetail.class
+models\AConditions.class
+models\MWindows.class
+stepdefinition\Steps.class
+runner\TestRunner.class

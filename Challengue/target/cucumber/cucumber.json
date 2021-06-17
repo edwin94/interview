@@ -1,0 +1,196 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-17T17:27:13.943Z",
+        "line": 14,
+        "name": "Visual Studio Shopping",
+        "description": "",
+        "id": "shopping-cart;visual-studio-shopping;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4185639100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the windows home page",
+            "match": {
+              "location": "stepdefinition.Steps.the_user_is_on_the_windows_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8549257600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate that all menu items are present",
+            "match": {
+              "location": "stepdefinition.Steps.validate_that_all_menu_items_are_present()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 681813200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "print all elements in dropdown from windows page",
+            "match": {
+              "location": "stepdefinition.Steps.print_all_elements_in_dropdown_from_windows_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1769266600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user search \"Visual Studio\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Visual Studio",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinition.Steps.the_user_search(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1791347900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the first one",
+            "match": {
+              "location": "stepdefinition.Steps.click_the_first_one()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3691793300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "add to the cart, select \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinition.Steps.add_to_the_cart_select(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5065931700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user validate the correct price",
+            "match": {
+              "location": "stepdefinition.Steps.the_user_validate_the_correctprice()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping Cart",
+    "description": "",
+    "id": "shopping-cart",
+    "keyword": "Feature",
+    "uri": "file:Features/TestCase01.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-17T17:27:39.779Z",
+        "line": 11,
+        "name": "Searching products in Amazon",
+        "description": "",
+        "id": "amazon-search;searching-products-in-amazon;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3809324200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on Amazon page",
+            "match": {
+              "location": "stepdefinition.Steps.the_user_is_on_Amazon_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7266243500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user create and account",
+            "match": {
+              "location": "stepdefinition.Steps.the_user_create_and_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2218931400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "search for \"Echo\" support",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Echo",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinition.Steps.search_for_support(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218565800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "elements should be displayed",
+            "match": {
+              "location": "stepdefinition.Steps.elements_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Search",
+    "description": "",
+    "id": "amazon-search",
+    "keyword": "Feature",
+    "uri": "file:Features/TestCase02.feature",
+    "tags": []
+  }
+]
